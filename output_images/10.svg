@@ -1,0 +1,68 @@
+<svg height="375" version="1.1" viewBox="0 0 730 375" width="730" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <line stroke="goldenrod" stroke-dasharray="9, 5" stroke-width="1" x1="215" x2="515" y1="165" y2="232.5" />
+    <line stroke="darkblue" stroke-dasharray="9, 5" stroke-width="1" x1="215" x2="515" y1="75" y2="142.5" />
+    <line stroke="darkred" stroke-dasharray="9, 5" stroke-width="1" x1="215" x2="515" y1="120" y2="187.5" />
+    <line stroke="darkblue" stroke-dasharray="9, 5" stroke-width="1" x1="215" x2="515" y1="255" y2="142.5" />
+    <line stroke="darkred" stroke-dasharray="9, 5" stroke-width="1" x1="215" x2="515" y1="300" y2="187.5" />
+    <line stroke="goldenrod" stroke-dasharray="9, 5" stroke-width="1" x1="215" x2="515" y1="210" y2="232.5" />
+  </g>
+  <g id="_yX_tlknsEeKfobSIm4eRig">
+    <g id="_yX_tl0nsEeKfobSIm4eRig">
+      <rect fill="white" height="30" stroke="black" stroke-width="1" width="200" x="15" y="60" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="115" y="75">i</text>
+    </g>
+    <g id="_yX_tm0nsEeKfobSIm4eRig">
+      <rect fill="white" height="30" stroke="black" stroke-width="1" width="200" x="15" y="105" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="115" y="120">i2</text>
+    </g>
+    <g id="autogen_Sob_0">
+      <rect fill="white" height="30" stroke="black" stroke-width="1" width="200" x="15" y="150" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="115" y="165">Sob_0</text>
+    </g>
+    <g id="autogen_Sob_1">
+      <rect fill="white" height="30" stroke="black" stroke-width="1" width="200" x="15" y="195" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="115" y="210">Sob_1</text>
+    </g>
+    <g id="autogen_fork_object">
+      <rect fill="white" height="30" stroke="black" stroke-width="1" width="200" x="15" y="240" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="115" y="255">fork</text>
+    </g>
+    <g id="autogen_join_object">
+      <rect fill="white" height="30" stroke="black" stroke-width="1" width="200" x="15" y="285" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="115" y="300">join</text>
+    </g>
+    <rect fill="lightgray" height="30" stroke="black" stroke-width="2" width="210" x="10" y="15" />
+    <text font-family="Verdana" font-size="20" text-anchor="middle" x="115" y="39">TOP</text>
+  </g>
+  <g id="_yX_tsEnsEeKfobSIm4eRig">
+    <g id="_yX_tsUnsEeKfobSIm4eRig">
+      <rect col="darkblue" fill="white" height="30" stroke="black" stroke-width="1" width="200" x="515" y="127.5" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="137.5">&lt;&lt;HwProcessor&gt;&gt;</text>
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="151.5">i</text>
+    </g>
+    <g id="_yX_ttUnsEeKfobSIm4eRig">
+      <rect col="darkred" fill="white" height="30" stroke="black" stroke-width="1" width="200" x="515" y="172.5" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="182.5">&lt;&lt;HwProcessor&gt;&gt;</text>
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="196.5">i2</text>
+    </g>
+    <g id="autogen_Processor_i0">
+      <rect col="goldenrod" fill="white" height="30" stroke="black" stroke-width="1" width="200" x="515" y="217.5" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="227.5">&lt;&lt;HwProcessor&gt;&gt;</text>
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="241.5">i1_0</text>
+    </g>
+    <g id="autogen_Processor_i1">
+      <rect col="darkgreen" fill="white" height="30" stroke="black" stroke-width="1" width="200" x="515" y="262.5" />
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="272.5">&lt;&lt;HwProcessor&gt;&gt;</text>
+      <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="286.5">i1_1</text>
+    </g>
+    <rect col="black" fill="lightgray" height="30" stroke="black" stroke-width="2" width="210" x="510" y="82.5" />
+    <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="92.5">&lt;&lt;HwComputingResource&gt;&gt;</text>
+    <text font-family="Verdana" font-size="10" text-anchor="middle" x="615" y="106.5">CompResc</text>
+  </g>
+  <g>
+    <rect y="67.5" />
+    <text y="67.5" />
+    <text y="67.5" />
+  </g>
+</svg>

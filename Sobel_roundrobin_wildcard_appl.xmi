@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:Alloc="http://MARTE.MARTE_Foundations/schemas/Alloc/_yZNOgEnsEeKfobSIm4eRig/0" xmlns:Cxx="http:///schemas/Cxx/_yYdnoEnsEeKfobSIm4eRig/0" xmlns:HwComputing="http://MARTE.MARTE_DesignModel.HRM.HwLogical/schemas/HwComputing/_yaBG0EnsEeKfobSIm4eRig/0" xmlns:Projects="http:///schemas/Projects/_yYNI8EnsEeKfobSIm4eRig/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://schema.omg.org/spec/UML/2.1.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eclipse.org/uml2/3.0.0/UML http://schema.omg.org/spec/UML/2.1.1 http://MARTE.MARTE_Foundations/schemas/Alloc/_yZNOgEnsEeKfobSIm4eRig/0 MARTE.profile.xmi#_ysTJ3EnsEeKfobSIm4eRig http:///schemas/Cxx/_yYdnoEnsEeKfobSIm4eRig/0 Cxx.profile.xmi#_ymvUN0nsEeKfobSIm4eRig http://MARTE.MARTE_DesignModel.HRM.HwLogical/schemas/HwComputing/_yaBG0EnsEeKfobSIm4eRig/0 MARTE.profile.xmi#_yscTsknsEeKfobSIm4eRig http:///schemas/Projects/_yYNI8EnsEeKfobSIm4eRig/0 Projects.profile.xmi#_ydM9t0nsEeKfobSIm4eRig">
+  <Alloc:Allocate base_Dependency="_yX_toknsEeKfobSIm4eRig" xmi:id="_y9-vgEnsEeKfobSIm4eRig" />
+  <Alloc:Allocate base_Dependency="_yX_to0nsEeKfobSIm4eRig" xmi:id="_y9_WkEnsEeKfobSIm4eRig" />
+  <Alloc:Allocate base_Dependency="_yX_tpEnsEeKfobSIm4eRig" xmi:id="_y9_9oEnsEeKfobSIm4eRig" />
+  <Alloc:Allocate base_Dependency="_yX_to0nsEeKfobSIm4eRig_copy" xmi:id="_y9_WkEnsEeKfobSIm4eRig_copy" />
+  <Alloc:Allocate base_Dependency="_yX_tpEnsEeKfobSIm4eRig_copy" xmi:id="_y9_9oEnsEeKfobSIm4eRig_copy" />
+  <Alloc:Allocated base_NamedElement="_yX_tlknsEeKfobSIm4eRig" xmi:id="_y9-IcEnsEeKfobSIm4eRig" />
+  <Alloc:Allocated base_NamedElement="_yX_tl0nsEeKfobSIm4eRig" xmi:id="_y9-vgUnsEeKfobSIm4eRig" />
+  <Alloc:Allocated base_NamedElement="_yX_tm0nsEeKfobSIm4eRig" xmi:id="_y9_WkUnsEeKfobSIm4eRig" />
+  <Alloc:Allocated base_NamedElement="_yX_tsEnsEeKfobSIm4eRig" xmi:id="_y-EPEUnsEeKfobSIm4eRig" />
+  <Alloc:Allocated base_NamedElement="_yX_tsUnsEeKfobSIm4eRig" xmi:id="_y-JuoEnsEeKfobSIm4eRig" />
+  <Alloc:Allocated base_NamedElement="_yX_ttUnsEeKfobSIm4eRig" xmi:id="_y-S4kUnsEeKfobSIm4eRig" />
+  <Cxx:ModelElement CxxNoCode="true" base_NamedElement="_yX9RVUnsEeKfobSIm4eRig" xmi:id="_y97FIEnsEeKfobSIm4eRig" />
+  <Cxx:ModelElement CxxNoCode="true" base_NamedElement="_yX9RVknsEeKfobSIm4eRig" xmi:id="_y99hYEnsEeKfobSIm4eRig" />
+  <HwComputing:HwComputingResource base_Classifier="_yX_tsEnsEeKfobSIm4eRig" xmi:id="_y-EPEEnsEeKfobSIm4eRig" />
+  <HwComputing:HwProcessor base_Property="_yX_tsUnsEeKfobSIm4eRig" xmi:id="_y-JHkEnsEeKfobSIm4eRig" />
+  <HwComputing:HwProcessor base_Property="_yX_ttUnsEeKfobSIm4eRig" xmi:id="_y-S4kEnsEeKfobSIm4eRig" />
+  <HwComputing:HwProcessor base_Property="autogen_Processor_i0" xmi:id="autogen_Processor_i0_MARTE" />
+  <HwComputing:HwProcessor base_Property="autogen_Processor_i1" xmi:id="autogen_Processor_i1_MARTE" />
+  <Projects:Package SystemDeploymentData="true" base_Package="_yX9RVUnsEeKfobSIm4eRig" xmi:id="_y953AEnsEeKfobSIm4eRig" />
+  <Projects:Package SystemDeploymentData="true" base_Package="_yX9RVknsEeKfobSIm4eRig" xmi:id="_y986UEnsEeKfobSIm4eRig" />
+  <uml:Model name="Sobel_roundrobin_wildcard" xmi:id="_yX9RUEnsEeKfobSIm4eRig">
+    <eAnnotations source="Objing" xmi:id="_yX9RUUnsEeKfobSIm4eRig">
+      <contents name="exporterVersion" xmi:id="_yX9RUknsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <defaultValue value="2.2" xmi:id="_yX9RU0nsEeKfobSIm4eRig" xmi:type="uml:LiteralString" />
+      </contents>
+    </eAnnotations>
+    <ownedComment xmi:id="_yX9RVEnsEeKfobSIm4eRig" xmi:type="uml:Comment">
+      <body></body>
+    </ownedComment>
+    <packagedElement name="SystemProjectData" xmi:id="_yX9RVUnsEeKfobSIm4eRig" xmi:type="uml:Package">
+      <packagedElement name="DeploymentData" xmi:id="_yX9RVknsEeKfobSIm4eRig" xmi:type="uml:Package" />
+    </packagedElement>
+    <packagedElement name="Source" xmi:id="_yX94YEnsEeKfobSIm4eRig" xmi:type="uml:Class">
+      <ownedAttribute name="source_out" aggregation="composite" type="_yX_GuEnsEeKfobSIm4eRig" xmi:id="_yX94YUnsEeKfobSIm4eRig" xmi:type="uml:Port" />
+      <ownedAttribute name="width" isUnique="false" xmi:id="_yX94YknsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="height" isUnique="false" xmi:id="_yX94Y0nsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="data" isReadOnly="true" isUnique="false" xmi:id="_yX94ZEnsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <defaultValue symbol="input_data.txt" xmi:id="_yX94Z0nsEeKfobSIm4eRig" xmi:type="uml:Expression" />
+        <lowerValue value="25" xmi:id="_yX94ZknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+        <upperValue value="25" xmi:id="_yX94ZUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+      </ownedAttribute>
+      <ownedBehavior name="State Machine" xmi:id="_yX94aEnsEeKfobSIm4eRig" xmi:type="uml:StateMachine">
+        <region name="Region" xmi:id="_yX94aUnsEeKfobSIm4eRig">
+          <subvertex name="Initial State" xmi:id="_yX94aknsEeKfobSIm4eRig" xmi:type="uml:Pseudostate" />
+          <subvertex name="State" xmi:id="_yX94a0nsEeKfobSIm4eRig" xmi:type="uml:State" />
+          <subvertex name="State1" xmi:id="_yX94bEnsEeKfobSIm4eRig" xmi:type="uml:State" />
+          <transition name="Transition" source="_yX94aknsEeKfobSIm4eRig" target="_yX94a0nsEeKfobSIm4eRig" xmi:id="_yX94bUnsEeKfobSIm4eRig" xmi:type="uml:Transition">
+            <effect xmi:id="_yX94bknsEeKfobSIm4eRig" xmi:type="uml:OpaqueBehavior">
+              <body>Source__init(self);</body>
+            </effect>
+          </transition>
+          <transition name="Transition1" source="_yX94a0nsEeKfobSIm4eRig" target="_yX94bEnsEeKfobSIm4eRig" xmi:id="_yX94b0nsEeKfobSIm4eRig" xmi:type="uml:Transition">
+            <effect xmi:id="_yX94cEnsEeKfobSIm4eRig" xmi:type="uml:OpaqueBehavior">
+              <body>Source__input(self);</body>
+            </effect>
+          </transition>
+        </region>
+      </ownedBehavior>
+      <ownedOperation name="init" xmi:id="_yX94cUnsEeKfobSIm4eRig" xmi:type="uml:Operation">
+        <ownedComment xmi:id="_yX94cknsEeKfobSIm4eRig" xmi:type="uml:Comment">
+          <body>self-&gt;width = 5;
+self-&gt;height = 5;
+</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation name="input" xmi:id="_yX94c0nsEeKfobSIm4eRig" xmi:type="uml:Operation">
+        <ownedComment xmi:id="_yX94dEnsEeKfobSIm4eRig" xmi:type="uml:Comment">
+          <body>int x, y;
+for(y=1;y&lt;(self-&gt;height-1);++y) {
+	for(x=1;x&lt;(self-&gt;width-1);++x) {
+		/* */
+		int id, p0, p1, p2, p3, p4, p5, p6, p7, p8;
+
+		id = ((y-1) * self-&gt;width) + x;
+		p8 = self-&gt;data[id-1];
+		p7 = self-&gt;data[id];
+		p6 = self-&gt;data[id+1];
+
+		id = ((y+1) * self-&gt;width) + x;
+		p2 = self-&gt;data[id-1];
+		p1 = self-&gt;data[id];
+		p0 = self-&gt;data[id+1];
+
+		id = (y * self-&gt;width) + x;
+		p5 = self-&gt;data[id-1];
+		p4 = self-&gt;data[id];
+		p3 = self-&gt;data[id+1];
+
+		i_sobel__sobel(self-&gt;source_out, id, p0, p1, p2, p3, p4, p5, p6, p7, p8);
+	}
+}</body>
+        </ownedComment>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="Sob" clientDependency="_yX-fdUnsEeKfobSIm4eRig" xmi:id="_yX94dUnsEeKfobSIm4eRig" xmi:type="uml:Class">
+      <interfaceRealization client="_yX94dUnsEeKfobSIm4eRig" contract="_yX_GmEnsEeKfobSIm4eRig" supplier="_yX_GmEnsEeKfobSIm4eRig" xmi:id="_yX-fdUnsEeKfobSIm4eRig" />
+      <ownedAttribute name="sobel_in" aggregation="composite" type="_yX_GmEnsEeKfobSIm4eRig" xmi:id="_yX94dknsEeKfobSIm4eRig" xmi:type="uml:Port" />
+      <ownedAttribute name="sobel_out" aggregation="composite" type="_yX_tlEnsEeKfobSIm4eRig" xmi:id="_yX94d0nsEeKfobSIm4eRig" xmi:type="uml:Port" />
+      <ownedAttribute name="h_mask" isReadOnly="true" isUnique="false" xmi:id="_yX94eEnsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <defaultValue symbol="h_mask.txt" xmi:id="_yX94e0nsEeKfobSIm4eRig" xmi:type="uml:Expression" />
+        <lowerValue value="9" xmi:id="_yX94eknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+        <upperValue value="9" xmi:id="_yX94eUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+      </ownedAttribute>
+      <ownedAttribute name="v_mask" isReadOnly="true" isUnique="false" xmi:id="_yX94fEnsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <defaultValue symbol="v_mask.txt" xmi:id="_yX94f0nsEeKfobSIm4eRig" xmi:type="uml:Expression" />
+        <lowerValue value="9" xmi:id="_yX94fknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+        <upperValue value="9" xmi:id="_yX94fUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+      </ownedAttribute>
+      <ownedBehavior name="State Machine" xmi:id="_yX94gEnsEeKfobSIm4eRig" xmi:type="uml:StateMachine">
+        <region name="Region" xmi:id="_yX94gUnsEeKfobSIm4eRig">
+          <subvertex name="Initial State" xmi:id="_yX94gknsEeKfobSIm4eRig" xmi:type="uml:Pseudostate" />
+          <subvertex name="State" xmi:id="_yX-fcEnsEeKfobSIm4eRig" xmi:type="uml:State" />
+          <transition name="Transition" source="_yX94gknsEeKfobSIm4eRig" target="_yX-fcEnsEeKfobSIm4eRig" xmi:id="_yX-fcUnsEeKfobSIm4eRig" xmi:type="uml:Transition" />
+          <transition name="Transition2" source="_yX-fcEnsEeKfobSIm4eRig" target="_yX-fcEnsEeKfobSIm4eRig" xmi:id="_yX-fcknsEeKfobSIm4eRig" xmi:type="uml:Transition">
+            <effect xmi:id="_yX-fc0nsEeKfobSIm4eRig" xmi:type="uml:OpaqueBehavior">
+              <body>Sob__sobel_op(self, params-&gt;id, params-&gt;pxl0, params-&gt;pxl1, params-&gt;pxl2, params-&gt;pxl3, params-&gt;pxl4, params-&gt;pxl5, params-&gt;pxl6, params-&gt;pxl7, params-&gt;pxl8);</body>
+            </effect>
+            <trigger name="sobel" event="_yX_Gh0nsEeKfobSIm4eRig" xmi:id="_yX-fdEnsEeKfobSIm4eRig" xmi:type="uml:Trigger" />
+          </transition>
+        </region>
+      </ownedBehavior>
+      <ownedOperation name="sobel_op" xmi:id="_yX-fdknsEeKfobSIm4eRig" xmi:type="uml:Operation">
+        <ownedComment xmi:id="_yX-fd0nsEeKfobSIm4eRig" xmi:type="uml:Comment">
+          <body>/* Perform Sobel filter */
+int data = 0;
+int _data = 0;
+int h = 0;
+int v = 0;
+
+/* h mask */
+h += pxl0 * self-&gt;h_mask[0];
+h += pxl1 * self-&gt;h_mask[1];
+h += pxl2 * self-&gt;h_mask[2];
+
+h += pxl3 * self-&gt;h_mask[3];
+h += pxl4 * self-&gt;h_mask[4];
+h += pxl5 * self-&gt;h_mask[5];
+
+h += pxl6 * self-&gt;h_mask[6];
+h += pxl7 * self-&gt;h_mask[7];
+h += pxl8 * self-&gt;h_mask[8];
+
+/* v mask */
+v += pxl0 * self-&gt;v_mask[0];
+v += pxl1 * self-&gt;v_mask[1];
+v += pxl2 * self-&gt;v_mask[2];
+
+v += pxl3 * self-&gt;v_mask[3];
+v += pxl4 * self-&gt;v_mask[4];
+v += pxl5 * self-&gt;v_mask[5];
+
+v += pxl6 * self-&gt;v_mask[6];
+v += pxl7 * self-&gt;v_mask[7];
+v += pxl8 * self-&gt;v_mask[8];
+
+/*_data = sqrt((h *h) + (v *v));*/
+data = _data &amp; 0xFF;
+
+i_sink__output(self-&gt;sobel_out, data, id);</body>
+        </ownedComment>
+        <ownedParameter name="id" isUnique="false" xmi:id="_yX-feEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-feknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-feUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl0" isUnique="false" xmi:id="_yX-fe0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-ffUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-ffEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl1" isUnique="false" xmi:id="_yX-ffknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fgEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-ff0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl2" isUnique="false" xmi:id="_yX-fgUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fg0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fgknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl3" isUnique="false" xmi:id="_yX-fhEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fhknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fhUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl4" isUnique="false" xmi:id="_yX-fh0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fiUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fiEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl5" isUnique="false" xmi:id="_yX-fiknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fjEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fi0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl6" isUnique="false" xmi:id="_yX-fjUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fj0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fjknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl7" isUnique="false" xmi:id="_yX-fkEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fkknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fkUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl8" isUnique="false" xmi:id="_yX-fk0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-flUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-flEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+      </ownedOperation>
+      <ownedReception name="sobel" xmi:id="_yX-flknsEeKfobSIm4eRig" xmi:type="uml:Reception">
+        <ownedParameter name="id" isUnique="false" xmi:id="_yX-fl0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fmUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fmEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl0" isUnique="false" xmi:id="_yX-fmknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fnEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fm0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl1" isUnique="false" xmi:id="_yX-fnUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fn0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fnknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl2" isUnique="false" xmi:id="_yX-foEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-foknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-foUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl3" isUnique="false" xmi:id="_yX-fo0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fpUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fpEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl4" isUnique="false" xmi:id="_yX-fpknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fqEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fp0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl5" isUnique="false" xmi:id="_yX-fqUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX-fq0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-fqknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl6" isUnique="false" xmi:id="_yX-frEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GgEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX-frUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl7" isUnique="false" xmi:id="_yX_GgUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gg0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GgknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl8" isUnique="false" xmi:id="_yX_GhEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GhknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GhUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+      </ownedReception>
+    </packagedElement>
+    <packagedElement name="sobel" signal="_yX_tpUnsEeKfobSIm4eRig" xmi:id="_yX_Gh0nsEeKfobSIm4eRig" xmi:type="uml:SignalEvent" />
+    <packagedElement name="Sink" clientDependency="_yX_Gj0nsEeKfobSIm4eRig" xmi:id="_yX_GiEnsEeKfobSIm4eRig" xmi:type="uml:Class">
+      <interfaceRealization client="_yX_GiEnsEeKfobSIm4eRig" contract="_yX_GuknsEeKfobSIm4eRig" supplier="_yX_GuknsEeKfobSIm4eRig" xmi:id="_yX_Gj0nsEeKfobSIm4eRig" />
+      <ownedAttribute name="sink_in" aggregation="composite" type="_yX_GuknsEeKfobSIm4eRig" xmi:id="_yX_GiUnsEeKfobSIm4eRig" xmi:type="uml:Port" />
+      <ownedBehavior name="State Machine" xmi:id="_yX_GiknsEeKfobSIm4eRig" xmi:type="uml:StateMachine">
+        <region name="Region" xmi:id="_yX_Gi0nsEeKfobSIm4eRig">
+          <subvertex name="Initial State" xmi:id="_yX_GjEnsEeKfobSIm4eRig" xmi:type="uml:Pseudostate" />
+          <subvertex name="State" xmi:id="_yX_GjUnsEeKfobSIm4eRig" xmi:type="uml:State" />
+          <transition name="Transition" source="_yX_GjEnsEeKfobSIm4eRig" target="_yX_GjUnsEeKfobSIm4eRig" xmi:id="_yX_GjknsEeKfobSIm4eRig" xmi:type="uml:Transition" />
+        </region>
+      </ownedBehavior>
+      <ownedOperation name="output" xmi:id="_yX_GkEnsEeKfobSIm4eRig" xmi:type="uml:Operation">
+        <ownedComment xmi:id="_yX_GkUnsEeKfobSIm4eRig" xmi:type="uml:Comment">
+          <body>/*printf(&quot;%d: %d\n&quot;, id, data);*/</body>
+        </ownedComment>
+        <ownedParameter name="data" isUnique="false" xmi:id="_yX_GkknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GlEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gk0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="id" isUnique="false" xmi:id="_yX_GlUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gl0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GlknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="i_sobel" isAbstract="true" xmi:id="_yX_GmEnsEeKfobSIm4eRig" xmi:type="uml:Interface">
+      <ownedReception name="sobel" xmi:id="_yX_GmUnsEeKfobSIm4eRig" xmi:type="uml:Reception">
+        <ownedParameter name="id" isUnique="false" xmi:id="_yX_GmknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GnEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gm0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl0" isUnique="false" xmi:id="_yX_GnUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gn0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GnknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl1" isUnique="false" xmi:id="_yX_GoEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GoknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GoUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl2" isUnique="false" xmi:id="_yX_Go0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GpUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GpEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl3" isUnique="false" xmi:id="_yX_GpknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GqEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gp0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl4" isUnique="false" xmi:id="_yX_GqUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gq0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GqknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl5" isUnique="false" xmi:id="_yX_GrEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GrknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GrUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl6" isUnique="false" xmi:id="_yX_Gr0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GsUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GsEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl7" isUnique="false" xmi:id="_yX_GsknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GtEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gs0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl8" isUnique="false" xmi:id="_yX_GtUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gt0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GtknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+      </ownedReception>
+    </packagedElement>
+    <packagedElement name="i_sobel_req" clientDependency="_yX_GuUnsEeKfobSIm4eRig" isAbstract="true" xmi:id="_yX_GuEnsEeKfobSIm4eRig" xmi:type="uml:Interface" />
+    <packagedElement client="_yX_GuEnsEeKfobSIm4eRig" supplier="_yX_GmEnsEeKfobSIm4eRig" xmi:id="_yX_GuUnsEeKfobSIm4eRig" xmi:type="uml:Usage" />
+    <packagedElement name="i_sink" isAbstract="true" xmi:id="_yX_GuknsEeKfobSIm4eRig" xmi:type="uml:Interface">
+      <ownedOperation name="output" xmi:id="_yX_Gu0nsEeKfobSIm4eRig" xmi:type="uml:Operation">
+        <ownedParameter name="data" isUnique="false" xmi:id="_yX_GvEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_tkEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GvUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="id" isUnique="false" xmi:id="_yX_tkUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_tk0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_tkknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="i_sink_req" clientDependency="_yX_tlUnsEeKfobSIm4eRig" isAbstract="true" xmi:id="_yX_tlEnsEeKfobSIm4eRig" xmi:type="uml:Interface" />
+    <packagedElement client="_yX_tlEnsEeKfobSIm4eRig" supplier="_yX_GuknsEeKfobSIm4eRig" xmi:id="_yX_tlUnsEeKfobSIm4eRig" xmi:type="uml:Usage" />
+    <packagedElement name="TOP" clientDependency="_yX_toknsEeKfobSIm4eRig" xmi:id="_yX_tlknsEeKfobSIm4eRig" xmi:type="uml:Class">
+      <ownedAttribute name="i" aggregation="composite" clientDependency="_yX_to0nsEeKfobSIm4eRig" type="_yX94YEnsEeKfobSIm4eRig" xmi:id="_yX_tl0nsEeKfobSIm4eRig" xmi:type="uml:Property" />
+      <ownedAttribute name="i2" aggregation="composite" clientDependency="_yX_tpEnsEeKfobSIm4eRig" type="_yX_GiEnsEeKfobSIm4eRig" xmi:id="_yX_tm0nsEeKfobSIm4eRig" xmi:type="uml:Property" />
+      <ownedAttribute name="Sob_0" aggregation="composite" type="_yX94dUnsEeKfobSIm4eRig" xmi:id="autogen_Sob_0" xmi:type="uml:Property" />
+      <ownedAttribute name="Sob_1" aggregation="composite" type="_yX94dUnsEeKfobSIm4eRig" xmi:id="autogen_Sob_1" xmi:type="uml:Property" />
+      <ownedAttribute name="fork" aggregation="composite" type="autogen_fork_class" xmi:id="autogen_fork_object" xmi:type="uml:Property" />
+      <ownedAttribute name="join" aggregation="composite" type="autogen_join_class" xmi:id="autogen_join_object" xmi:type="uml:Property" />
+      <ownedBehavior xmi:type="uml:StateMachine">
+        <region>
+          <subvertex xmi:id="a" xmi:type="uml:Pseudostate" />
+          <subvertex xmi:id="b" xmi:type="uml:State" />
+          <transition source="a" target="b" xmi:type="uml:Transition" />
+        </region>
+      </ownedBehavior>
+      <ownedConnector kind="delegation" xmi:id="_yX_tnEnsEeKfobSIm4eRig">
+        <end isUnique="false" partWithPort="_yX_tl0nsEeKfobSIm4eRig" role="_yX94YUnsEeKfobSIm4eRig" xmi:id="_yX_tnUnsEeKfobSIm4eRig" />
+        <end isUnique="false" partWithPort="autogen_fork_object" role="autogen_fork_class_in" xmi:id="_yX_tnknsEeKfobSIm4eRig" />
+      </ownedConnector>
+      <ownedConnector kind="delegation" xmi:id="_yX_tn0nsEeKfobSIm4eRig">
+        <end isUnique="false" partWithPort="autogen_join_object" role="autogen_join_class_out" xmi:id="_yX_toEnsEeKfobSIm4eRig" />
+        <end isUnique="false" partWithPort="_yX_tm0nsEeKfobSIm4eRig" role="_yX_GiUnsEeKfobSIm4eRig" xmi:id="_yX_toUnsEeKfobSIm4eRig" />
+      </ownedConnector>
+      <ownedConnector kind="delegation" xmi:id="fork_0">
+        <end isUnique="false" partWithPort="autogen_fork_object" role="autogen_fork_class_out_0" />
+        <end isUnique="false" partWithPort="autogen_Sob_0" role="_yX94dknsEeKfobSIm4eRig" />
+      </ownedConnector>
+      <ownedConnector kind="delegation" xmi:id="join_0">
+        <end isUnique="false" partWithPort="autogen_Sob_0" role="_yX94d0nsEeKfobSIm4eRig" />
+        <end isUnique="false" partWithPort="autogen_join_object" role="autogen_join_class_in_0" />
+      </ownedConnector>
+      <ownedConnector kind="delegation" xmi:id="fork_1">
+        <end isUnique="false" partWithPort="autogen_fork_object" role="autogen_fork_class_out_1" />
+        <end isUnique="false" partWithPort="autogen_Sob_1" role="_yX94dknsEeKfobSIm4eRig" />
+      </ownedConnector>
+      <ownedConnector kind="delegation" xmi:id="join_1">
+        <end isUnique="false" partWithPort="autogen_Sob_1" role="_yX94d0nsEeKfobSIm4eRig" />
+        <end isUnique="false" partWithPort="autogen_join_object" role="autogen_join_class_in_1" />
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement name="" client="_yX_tlknsEeKfobSIm4eRig" supplier="_yX_tsEnsEeKfobSIm4eRig" xmi:id="_yX_toknsEeKfobSIm4eRig" xmi:type="uml:Dependency" />
+    <packagedElement name="" client="_yX_tl0nsEeKfobSIm4eRig" supplier="_yX_tsUnsEeKfobSIm4eRig" xmi:id="_yX_to0nsEeKfobSIm4eRig" xmi:type="uml:Dependency" />
+    <packagedElement name="" client="_yX_tm0nsEeKfobSIm4eRig" supplier="_yX_ttUnsEeKfobSIm4eRig" xmi:id="_yX_tpEnsEeKfobSIm4eRig" xmi:type="uml:Dependency" />
+    <packagedElement name="sobel" xmi:id="_yX_tpUnsEeKfobSIm4eRig" xmi:type="uml:Signal">
+      <ownedAttribute name="id" isUnique="false" xmi:id="_yX_tpknsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl0" isUnique="false" xmi:id="_yX_tp0nsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl1" isUnique="false" xmi:id="_yX_tqEnsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl2" isUnique="false" xmi:id="_yX_tqUnsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl3" isUnique="false" xmi:id="_yX_tqknsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl4" isUnique="false" xmi:id="_yX_tq0nsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl5" isUnique="false" xmi:id="_yX_trEnsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl6" isUnique="false" xmi:id="_yX_trUnsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl7" isUnique="false" xmi:id="_yX_trknsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedAttribute name="pxl8" isUnique="false" xmi:id="_yX_tr0nsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement name="CompResc" xmi:id="_yX_tsEnsEeKfobSIm4eRig" xmi:type="uml:Class">
+      <ownedAttribute name="i" aggregation="composite" type="_yX_ttknsEeKfobSIm4eRig" xmi:id="_yX_tsUnsEeKfobSIm4eRig" xmi:type="uml:Property" />
+      <ownedAttribute name="i2" aggregation="composite" type="_yX_ttknsEeKfobSIm4eRig" xmi:id="_yX_ttUnsEeKfobSIm4eRig" xmi:type="uml:Property" />
+      <ownedAttribute name="i1_0" aggregation="composite" type="_yX_ttknsEeKfobSIm4eRig" xmi:id="autogen_Processor_i0" xmi:type="uml:Property" />
+      <ownedAttribute name="i1_1" aggregation="composite" type="_yX_ttknsEeKfobSIm4eRig" xmi:id="autogen_Processor_i1" xmi:type="uml:Property" />
+      <ownedBehavior xmi:type="uml:StateMachine">
+        <region>
+          <subvertex xmi:id="a" xmi:type="uml:Pseudostate" />
+          <subvertex xmi:id="b" xmi:type="uml:State" />
+          <transition source="a" target="b" xmi:type="uml:Transition" />
+        </region>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement name="Proc" xmi:id="_yX_ttknsEeKfobSIm4eRig" xmi:type="uml:Class">
+      <ownedAttribute name="fill" isUnique="false" xmi:id="_yX_tt0nsEeKfobSIm4eRig" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:StateMachine">
+        <region>
+          <subvertex xmi:id="a" xmi:type="uml:Pseudostate" />
+          <subvertex xmi:id="b" xmi:type="uml:State" />
+          <transition source="a" target="b" xmi:type="uml:Transition" />
+        </region>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement name="autogen_fork_class" xmi:id="autogen_fork_class" xmi:type="uml:Class">
+      <interfaceRealization client="autogen_fork_class" contract="_yX_GmEnsEeKfobSIm4eRig" supplier="_yX_GmEnsEeKfobSIm4eRig" xmi:id="autogen_fork_class_interface_realisation" />
+      <ownedAttribute name="num" isUnique="false" xmi:id="autogen_fork_class_num" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:Primitive" />
+      </ownedAttribute>
+      <ownedAttribute name="sobel_roundrobin" isUnique="false" xmi:id="sobel_roundrobin" xmi:type="uml:Property">
+        <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:Primitive" />
+      </ownedAttribute>
+      <ownedAttribute name="in" aggregation="composite" type="_yX_GmEnsEeKfobSIm4eRig" xmi:id="autogen_fork_class_in" xmi:type="uml:Port" />
+      <ownedAttribute name="out_0" aggregation="composite" type="_yX_GuEnsEeKfobSIm4eRig" xmi:id="autogen_fork_class_out_0" xmi:type="uml:Port" />
+      <ownedAttribute name="out_1" aggregation="composite" type="_yX_GuEnsEeKfobSIm4eRig" xmi:id="autogen_fork_class_out_1" xmi:type="uml:Port" />
+      <ownedBehavior name="State Machine" xmi:id="autogen_fork_class_statemachine" xmi:type="uml:StateMachine">
+        <region name="Region">
+          <subvertex name="Initial State" xmi:id="autogen_fork_class_initialstate" xmi:type="uml:Pseudostate" />
+          <subvertex name="Ready" xmi:id="autogen_fork_class_ready" xmi:type="uml:State" />
+          <transition name="init" source="autogen_fork_class_initialstate" target="autogen_fork_class_ready" xmi:type="uml:Transition">
+            <effect xmi:type="uml:OpaqueBehavior">
+              <body>autogen_fork_class__init(self);</body>
+            </effect>
+          </transition>
+          <transition name="sobel" source="autogen_fork_class_ready" target="autogen_fork_class_ready" xmi:type="uml:Transition">
+            <effect xmi:type="uml:OpaqueBehavior">
+              <body>autogen_fork_class__sobel_op(self, params-&gt;id, params-&gt;pxl0, params-&gt;pxl1, params-&gt;pxl2, params-&gt;pxl3, params-&gt;pxl4, params-&gt;pxl5, params-&gt;pxl6, params-&gt;pxl7, params-&gt;pxl8);</body>
+            </effect>
+            <trigger name="sobel_trigger" event="" xmi:type="uml:Trigger" />
+          </transition>
+        </region>
+      </ownedBehavior>
+      <ownedOperation name="sobel_op" xmi:id="sobel_op" xmi:type="uml:Operation">
+        <ownedComment xmi:id="" xmi:type="uml:Comment">
+          <body>if(self-&gt;sobel_roundrobin == 0) {
+	i_sobel__sobel(self-&gt;out_0, id, pxl0, pxl1, pxl2, pxl3, pxl4, pxl5, pxl6, pxl7, pxl8);
+}
+if(self-&gt;sobel_roundrobin == 1) {
+	i_sobel__sobel(self-&gt;out_1, id, pxl0, pxl1, pxl2, pxl3, pxl4, pxl5, pxl6, pxl7, pxl8);
+}
+if(++(self-&gt;sobel_roundrobin) &gt;= 2) {
+	self-&gt;sobel_roundrobin = 0;
+}
+</body>
+        </ownedComment>
+        <ownedParameter name="id" isUnique="false" xmi:id="_yX_GmknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GnEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gm0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl0" isUnique="false" xmi:id="_yX_GnUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gn0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GnknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl1" isUnique="false" xmi:id="_yX_GoEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GoknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GoUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl2" isUnique="false" xmi:id="_yX_Go0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GpUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GpEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl3" isUnique="false" xmi:id="_yX_GpknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GqEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gp0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl4" isUnique="false" xmi:id="_yX_GqUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gq0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GqknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl5" isUnique="false" xmi:id="_yX_GrEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GrknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GrUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl6" isUnique="false" xmi:id="_yX_Gr0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GsUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GsEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl7" isUnique="false" xmi:id="_yX_GsknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GtEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gs0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl8" isUnique="false" xmi:id="_yX_GtUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gt0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GtknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation name="init" xmi:id="autogen_fork_class_init" xmi:type="uml:Operation">
+        <ownedComment xmi:id="" xmi:type="uml:Comment">
+          <body>self-&gt;num = 2;
+self-&gt;sobel_roundrobin = 0;
+</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedReception name="sobel" xmi:id="_yX_GmUnsEeKfobSIm4eRig" xmi:type="uml:Reception">
+        <ownedParameter name="id" isUnique="false" xmi:id="_yX_GmknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GnEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gm0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl0" isUnique="false" xmi:id="_yX_GnUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gn0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GnknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl1" isUnique="false" xmi:id="_yX_GoEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GoknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GoUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl2" isUnique="false" xmi:id="_yX_Go0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GpUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GpEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl3" isUnique="false" xmi:id="_yX_GpknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GqEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gp0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl4" isUnique="false" xmi:id="_yX_GqUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gq0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GqknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl5" isUnique="false" xmi:id="_yX_GrEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GrknsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GrUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl6" isUnique="false" xmi:id="_yX_Gr0nsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GsUnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GsEnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl7" isUnique="false" xmi:id="_yX_GsknsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_GtEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_Gs0nsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="pxl8" isUnique="false" xmi:id="_yX_GtUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_Gt0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GtknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+      </ownedReception>
+    </packagedElement>
+    <packagedElement name="autogen_join_class" xmi:id="autogen_join_class" xmi:type="uml:Class">
+      <interfaceRealization client="autogen_join_class" contract="_yX_GuknsEeKfobSIm4eRig" supplier="_yX_GuknsEeKfobSIm4eRig" xmi:id="autogen_join_class_interface_realisation" />
+      <ownedAttribute name="out" aggregation="composite" type="_yX_tlEnsEeKfobSIm4eRig" xmi:id="autogen_join_class_out" xmi:type="uml:Port" />
+      <ownedAttribute name="in_0" aggregation="composite" type="_yX_GuknsEeKfobSIm4eRig" xmi:id="autogen_join_class_in_0" xmi:type="uml:Port" />
+      <ownedAttribute name="in_1" aggregation="composite" type="_yX_GuknsEeKfobSIm4eRig" xmi:id="autogen_join_class_in_1" xmi:type="uml:Port" />
+      <ownedBehavior xmi:type="uml:StateMachine">
+        <region>
+          <subvertex xmi:id="a" xmi:type="uml:Pseudostate" />
+          <subvertex xmi:id="b" xmi:type="uml:State" />
+          <transition source="a" target="b" xmi:type="uml:Transition" />
+        </region>
+      </ownedBehavior>
+      <ownedOperation name="output" isAbstract="" xmi:id="_yX_Gu0nsEeKfobSIm4eRig" xmi:type="uml:Operation">
+        <ownedComment xmi:id="" xmi:type="uml:Comment">
+          <body>i_sink__output(self-&gt;out, data, id);
+</body>
+        </ownedComment>
+        <ownedParameter name="data" isUnique="false" xmi:id="_yX_GvEnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_tkEnsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_GvUnsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+        <ownedParameter name="id" isUnique="false" xmi:id="_yX_tkUnsEeKfobSIm4eRig">
+          <lowerValue value="1" xmi:id="_yX_tk0nsEeKfobSIm4eRig" xmi:type="uml:LiteralInteger" />
+          <type href="http://schema.omg.org/spec/UML/2.1.1/uml.xml#Integer" xmi:type="uml:PrimitiveType" />
+          <upperValue value="1" xmi:id="_yX_tkknsEeKfobSIm4eRig" xmi:type="uml:LiteralUnlimitedNatural" />
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement name="" client="autogen_fork_object" supplier="_yX_tsUnsEeKfobSIm4eRig" xmi:id="_yX_to0nsEeKfobSIm4eRig_copy" xmi:type="uml:Dependency" />
+    <packagedElement name="" client="autogen_join_object" supplier="_yX_ttUnsEeKfobSIm4eRig" xmi:id="_yX_tpEnsEeKfobSIm4eRig_copy" xmi:type="uml:Dependency" />
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9CUUEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="Projects.profile.xmi#_ydM9sEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9CUUEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9EJgEnsEeKfobSIm4eRig">
+        <references href="Projects.profile.xmi#_ydM9t0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9F-sEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="Cxx.profile.xmi#_ymvUMEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9F-sEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9F-sUnsEeKfobSIm4eRig">
+        <references href="Cxx.profile.xmi#_ymvUN0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9HM0EnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysIxkEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9HM0EnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9HM0UnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysIxl0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9Hz4EnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysIxmEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9Hz4EnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9Ia8EnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysIxn0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9JCAEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysIxoEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9JCAEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9JCAUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysIxp0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9KQIEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysTJ1UnsEeKfobSIm4eRig" xmi:applyingPackage="_y9KQIEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9KQIUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysTJ3EnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9LeQEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysUXwknsEeKfobSIm4eRig" xmi:applyingPackage="_y9LeQEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9LeQUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysUXyUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9MsYEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysU-0knsEeKfobSIm4eRig" xmi:applyingPackage="_y9MsYEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9MsYUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysU-2UnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9NTcEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysYCWknsEeKfobSIm4eRig" xmi:applyingPackage="_y9NTcEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9N6gEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysYCYUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9PIoEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysYCUknsEeKfobSIm4eRig" xmi:applyingPackage="_y9PIoEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9PIoUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysYCWUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9QWwEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysYCYknsEeKfobSIm4eRig" xmi:applyingPackage="_y9QWwEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9Q90EnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysYCaUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9Rk4EnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysVmAUnsEeKfobSIm4eRig" xmi:applyingPackage="_y9Rk4EnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9SL8EnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysVmCEnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9SzAEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysZ3y0nsEeKfobSIm4eRig" xmi:applyingPackage="_y9SzAEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9TaEEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysZ30knsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9UBIEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysZ300nsEeKfobSIm4eRig" xmi:applyingPackage="_y9UBIEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9UoMEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysZ32knsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9VPQEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yscTm0nsEeKfobSIm4eRig" xmi:applyingPackage="_y9VPQEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9V2UEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yscToknsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9WdYEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yscTo0nsEeKfobSIm4eRig" xmi:applyingPackage="_y9WdYEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9XEcEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yscTqknsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9XrgEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysohiEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9XrgEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9YSkEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysohj0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9Y5oEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yscTq0nsEeKfobSIm4eRig" xmi:applyingPackage="_y9Y5oEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9ZgsEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yscTsknsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9aHwEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysfXtUnsEeKfobSIm4eRig" xmi:applyingPackage="_y9aHwEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9au0EnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysfXvEnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9bV4EnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysiaOEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9bV4EnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9b88EnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysiaP0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9dLEEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysjoXknsEeKfobSIm4eRig" xmi:applyingPackage="_y9dLEEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9dyIEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysjoZUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9eZMEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysk2q0nsEeKfobSIm4eRig" xmi:applyingPackage="_y9eZMEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9fAQEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysk2sknsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9fnUEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysk2s0nsEeKfobSIm4eRig" xmi:applyingPackage="_y9fnUEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9gOYEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysk2uknsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9hcgEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysmsoEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9hcgEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9iDkEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysnSsknsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9iqoEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yspvdknsEeKfobSIm4eRig" xmi:applyingPackage="_y9iqoEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9jRsEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yspvfUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9kf0EnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yspvfknsEeKfobSIm4eRig" xmi:applyingPackage="_y9kf0EnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9lG4EnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yspvhUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9lt8EnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysq9bEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9lt8EnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9mVAEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysq9c0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9njIEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yssLNEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9njIEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9njIUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yssLO0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9oxQEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yssLPEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9oxQEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9pYUEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yssLQ0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9p_YEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yssynknsEeKfobSIm4eRig" xmi:applyingPackage="_y9p_YEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9qmcEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yssypUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9rNgEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_yswdiEnsEeKfobSIm4eRig" xmi:applyingPackage="_y9rNgEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9r0kEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_yswdj0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9tCsEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysxrbknsEeKfobSIm4eRig" xmi:applyingPackage="_y9tCsEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9tCsUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysxrdUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9uQ0EnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ys0IREnsEeKfobSIm4eRig" xmi:applyingPackage="_y9uQ0EnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9u34EnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ys0IS0nsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9wGAEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ys0vdknsEeKfobSIm4eRig" xmi:applyingPackage="_y9wGAEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9wGAUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ys1VIUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9xUIEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ys1VIknsEeKfobSIm4eRig" xmi:applyingPackage="_y9xUIEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9xUIUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ys1VKUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9x7MEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ys3L0UnsEeKfobSIm4eRig" xmi:applyingPackage="_y9x7MEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9yiQEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ys3L2EnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y9zJUEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ys4YuknsEeKfobSIm4eRig" xmi:applyingPackage="_y9zJUEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y9zwYEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ys4YwUnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y90-gEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysZQVUnsEeKfobSIm4eRig" xmi:applyingPackage="_y90-gEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y91lkEnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysZQXEnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+    <profileApplication xmi:applyingPackage="_yX9RUEnsEeKfobSIm4eRig" xmi:id="_y92MoEnsEeKfobSIm4eRig" xmi:type="uml:ProfileApplication">
+      <appliedProfile href="MARTE.profile.xmi#_ysYpnUnsEeKfobSIm4eRig" xmi:applyingPackage="_y92MoEnsEeKfobSIm4eRig" xmi:type="uml:Profile" />
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_y92MoUnsEeKfobSIm4eRig">
+        <references href="MARTE.profile.xmi#_ysYppEnsEeKfobSIm4eRig" xmi:type="ecore:EPackage" />
+      </eAnnotations>
+    </profileApplication>
+  </uml:Model>
+</xmi:XMI>

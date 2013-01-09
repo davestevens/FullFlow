@@ -1,0 +1,22 @@
+FalconML version 3.0
+Redistribution or modification prohibited.
+Copyright 2011,2012 Axilica Limited.
+
+FalconML software generation
+
+=== Executing subprogram falconmlcore ===
+--- Starting processing ---
+Reading Sobel_roundrobin_wildcard_set.xmi
+XMI read OK
+Validating model
+=== Subprogram falconmlcore completed ===
+
+=== Executing subprogram falconmlcgen ===
+Generating C Code
+Generating C main()
+Generating C Makefile
+Generating C requirements report
+C Write OK
+=== Subprogram falconmlcgen completed ===
+
+Finished: All subprograms ran successfully

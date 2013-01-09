@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opt>
+  <application name="TOP" id="_yX_tlknsEeKfobSIm4eRig">
+    <part name="i" id="_yX_tl0nsEeKfobSIm4eRig" type="Source" />
+    <part name="i2" id="_yX_tm0nsEeKfobSIm4eRig" type="Sink" />
+    <part name="Sob_0" id="autogen_Sob_0" type="Sob" />
+    <part name="Sob_1" id="autogen_Sob_1" type="Sob" />
+    <part name="fork" id="autogen_fork_object" type="autogen_fork_class" />
+    <part name="join" id="autogen_join_object" type="autogen_join_class" />
+  </application>
+  <architecture>
+    <computingresource name="CompResc" id="_yX_tsEnsEeKfobSIm4eRig">
+      <core name="i" id="_yX_tsUnsEeKfobSIm4eRig" />
+      <core name="i2" id="_yX_ttUnsEeKfobSIm4eRig" />
+      <core name="i1_0" id="autogen_Processor_i0" />
+      <core name="i1_1" id="autogen_Processor_i1" />
+    </computingresource>
+  </architecture>
+  <mappings count="16">
+    <mapping id="orig" multicore="true" type="unknown">
+      <map end="_yX_tsEnsEeKfobSIm4eRig" start="_yX_tlknsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+    </mapping>
+    <mapping id="0" multicore="true" type="software">
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="1" multicore="true" type="software">
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="2" multicore="true" type="software">
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="autogen_Processor_i0" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="3" multicore="true" type="software">
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="autogen_Processor_i1" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="4" multicore="true" type="software">
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="5" multicore="true" type="software">
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="6" multicore="true" type="software">
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="autogen_Processor_i0" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="7" multicore="true" type="software">
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="autogen_Processor_i1" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="8" multicore="true" type="software">
+      <map end="autogen_Processor_i0" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="9" multicore="true" type="software">
+      <map end="autogen_Processor_i0" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="10" multicore="true" type="software">
+      <map end="autogen_Processor_i0" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="autogen_Processor_i0" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="11" multicore="true" type="software">
+      <map end="autogen_Processor_i0" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="autogen_Processor_i1" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="12" multicore="true" type="software">
+      <map end="autogen_Processor_i1" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="13" multicore="true" type="software">
+      <map end="autogen_Processor_i1" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="14" multicore="true" type="software">
+      <map end="autogen_Processor_i1" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="autogen_Processor_i0" start="autogen_Sob_1" />
+    </mapping>
+    <mapping id="15" multicore="true" type="software">
+      <map end="autogen_Processor_i1" start="autogen_Sob_0" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="_yX_tl0nsEeKfobSIm4eRig" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="_yX_tm0nsEeKfobSIm4eRig" />
+      <map end="_yX_tsUnsEeKfobSIm4eRig" start="autogen_fork_object" />
+      <map end="_yX_ttUnsEeKfobSIm4eRig" start="autogen_join_object" />
+      <map end="autogen_Processor_i1" start="autogen_Sob_1" />
+    </mapping>
+  </mappings>
+</opt>
